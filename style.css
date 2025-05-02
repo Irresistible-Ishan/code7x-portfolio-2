@@ -69,15 +69,13 @@ body {
 .headingone{
   font-size:80px; 
   text-align: center; 
-  
   font-weight: 7;
   color:black;
   text-decoration: none;
 }
 
 .headingone:hover{
-  align-items: center;
-  margin-top:5px;
+  transform:scale(1.1);
 }
 .logo{
   height:55px;
