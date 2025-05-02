@@ -72,8 +72,6 @@ body {
   font-weight: 7;
   color:black;
   text-decoration: none;
-  margin-bottom: 15%;
-  margin-top:15%;
 }
 
 .headingone:hover{
@@ -112,11 +110,15 @@ body {
 }
 
 .transbox{
-  width:300px;
+  width:75%;
+  border-radius:20px;
   height:300px;
-  margin:0 auto;
   margin-top:0px;
+  margin:0 auto;
   background-color:black;
   opacity:0.5;
   text-align: center;
+  color:white;
+  padding:20px;
+  font-size: 30px;
 }
