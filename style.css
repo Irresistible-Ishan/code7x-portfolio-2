@@ -8,6 +8,7 @@ nav ul{
   border-radius:20px;
 }
 nav ul li{
+  opacity:0.5;
   margin-left: 7px;
   margin-right:7px;
   font-size: 40px;
@@ -15,24 +16,25 @@ nav ul li{
   width:200px;
   background-color:#FFFFFF;
   border-radius:20px;
-  animation:cold 10s infinite linear;
   border:4px solid black;
   box-shadow:0 0 20px 3px black;
   transition:teansform 0.7s linear;
 }
+nav ul li:first-child{
+  opacity:1;
+}
 nav ul li:hover{
   transform:scale(1.025);
+  opacity:1;
+  animation:cold 5s infinite linear;
 }
-nav ul li:first-child{
-  border-radius:100%;
-}
+
 nav li a{
   display:block;
   color:#000000;
   padding:8px 16px;
   text-decoration: none;
   border-radius:20px;
-  animation:cold 10s infinite linear;
   transition: transform 0.4s linear;
 }
 nav li a:hover{
@@ -40,6 +42,7 @@ nav li a:hover{
   color:white;
   border-radius:20px;
   transform:scale(1.2);
+  animation:cold 5s infinite linear;
 }
 body {
   font-family: tektur;
@@ -47,7 +50,7 @@ body {
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center center;
-  background-attachment: fixed;
+  background-attachment:fixed;
   margin:0;
   padding:0;
 }
@@ -60,6 +63,10 @@ body {
   text-decoration: none;
 }
 
+.headingone:hover{
+  align-items: center;
+  margin-top:5px;
+}
 .logo{
   height:55px;
   width:55px;
@@ -76,7 +83,7 @@ body {
   object-fit: contain;
   max-height: 100%;
   max-width: 100%;
-  transform:scale(1.3);
+  transform:scale(1);
   transition: transform 0.4s ease-in-out;
 }
 .logo img:hover{
@@ -91,3 +98,4 @@ body {
   110% {background-color:#FFFFFF; color:#000000;}
 
 }
+
