@@ -36,7 +36,7 @@ nav li a{
   transition: transform 0.4s linear;
 }
 nav li a:hover{
-  background-color:#156A5C;
+  background-color:#FFFFFF;
   color:white;
   border-radius:20px;
   transform:scale(1.2);
