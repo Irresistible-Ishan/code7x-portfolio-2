@@ -122,3 +122,12 @@ body {
   padding:20px;
   font-size: 30px;
 }
+
+.sepratorP {
+  margin-top:20px;
+  position:relative;
+}
+.sepratorP span{
+  position: absolute ;
+  font-size:30px;
+}
