@@ -106,11 +106,10 @@ body {
   50% {background-color: #000000; color:#FFFFFF;}
   75% {background-color:#7E7E7E; color:#606060;}
   110% {background-color:#FFFFFF; color:#000000;}
-
 }
 
 .transbox{
-  width:100%;
+  width:75%;
   border-radius:20px;
   height:300px;
   margin-top:0px;
@@ -121,9 +120,26 @@ body {
   color:white;
   padding:20px;
   font-size: 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  box-shadow:0 0 20px 3px #000000;
 }
 
+.childdiv{
+  margin:0;
+  color:black;
+  width:350px;
+  height:130px;
+  font-size:20px;
+  background-color:#FFFFFF;
+  opacity:1;
+  border-radius:20px;
+  
+  
+}
 .sepratorP {
+  align-items:center;
   font-size:30px;
   width:75%;
   margin:0 auto ;
