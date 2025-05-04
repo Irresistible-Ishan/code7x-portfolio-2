@@ -113,7 +113,6 @@ body {
 .transbox{
   width:75%;
   border-radius:20px;
-  height:300px;
   margin-top:0px;
   margin:0 auto;
   background-color:black;
@@ -121,6 +120,8 @@ body {
   text-align: center;
   color:white;
   padding:20px;
+  padding-top:30px;
+  padding-bottom:30px;
   font-size: 30px;
   display:flex;
   justify-content:space-between;
@@ -132,7 +133,7 @@ body {
   margin:0;
   color:black;
   width:350px;
-  height:130px;
+  padding:7px;
   font-size:20px;
   background-color:#FFFFFF;
   opacity:1;
