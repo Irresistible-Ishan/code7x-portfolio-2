@@ -110,7 +110,7 @@ body {
 }
 
 .transbox{
-  width:75%;
+  width:100%;
   border-radius:20px;
   height:300px;
   margin-top:0px;
@@ -124,10 +124,9 @@ body {
 }
 
 .sepratorP {
-  margin-top:20px;
-  position:relative;
-}
-.sepratorP span{
-  position: absolute ;
   font-size:30px;
+  width:75%;
+  margin:0 auto ;
+  margin-top:20px;
+  margin-bottom:20px;
 }
