@@ -2,7 +2,7 @@ nav ul{
   list-style : none;
   padding : 0;
   margin:0 auto;
-  margin-top:5px;
+  margin-top:10px;
   width:75%;
   display:flex;
   border-radius:20px;
@@ -19,7 +19,7 @@ nav ul li{
   background-color:#FFFFFF;
   border-radius:20px;
   border:4px solid black;
-  box-shadow:0 0 20px 3px black;
+  box-shadow:0 0 80px 3px black;
   transition:teansform 0.7s linear;
 }
 nav ul li:first-child{
@@ -71,11 +71,10 @@ body {
 .headingone{
   font-size:80px; 
   text-align: center; 
-  font-weight: 7;
   color:black;
   text-decoration: none;
+  text-shadow:0 0 40px black;
 }
-
 .headingone:hover{
   transform:scale(1.1);
 }
