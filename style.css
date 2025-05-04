@@ -48,7 +48,7 @@ nav li a:hover{
 }
 body {
   font-family: tektur;
-  background-image:url("bg2g.jpg");
+  background-image:url("bgm.jpg");
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center top;
@@ -131,14 +131,12 @@ body {
 .childdiv{
   margin:0;
   color:black;
-  width:350px;
+  width:40%;
   padding:7px;
   font-size:20px;
   background-color:#FFFFFF;
   opacity:1;
   border-radius:20px;
-  
-  
 }
 .sepratorP {
   align-items:center;
