@@ -1,19 +1,19 @@
 nav ul{
   list-style : none;
   padding : 0;
-  margin:0 auto;
+  margin:0;
   margin-top:5px;
-  width:75%;
+  width:10px;
   display:flex;
   border-radius:20px;
-  justify-items: space-between;
-  align-items:center;
-  text-align:center;
 }
 nav ul li{
+  opacity:0.5;
+  margin-left: 7px;
+  margin-right:7px;
   font-size: 25px;
-  margin-left:10%;
-  width:160px;
+  display:block;
+  width:200px;
   height:50px;
   padding:0;
   background-color:#FFFFFF;
@@ -23,7 +23,8 @@ nav ul li{
   transition:teansform 0.7s linear;
 }
 nav ul li:first-child{
-  margin-left:0%;
+  opacity:1;
+  height:75px;
 }
 nav ul li:hover{
   transform:scale(1.025);
