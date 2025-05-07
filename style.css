@@ -43,13 +43,14 @@ nav ul li a {
 nav ul li:last-child{
   margin-left:auto;
   margin-right:30px;
-  margin-top:0px;
+  margin-top:auto;
   background-color:white;
   border-radius:20px;
   width:auto;
   padding:8px;
   height:25px;
   border:double 5px;
+  margin-bottom:20px;
 }
 nav ul li div p {
   color:black;
@@ -95,3 +96,17 @@ nav ul li div p {
   box-shadow:0 0 20px 3px #000000;
 }
 
+.panel{
+  max-width:1920;
+  width:auto;
+  position: absolute ;
+  left:60%;
+  right:0;
+  min-height: 1080;
+  height:1080px;
+  margin-top: 50px;
+  margin:0;
+  padding:0;
+  background-color:#0DFF56;
+  border-top-left-radius: 20px;
+}
