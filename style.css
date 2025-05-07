@@ -107,6 +107,19 @@ nav ul li div p {
   margin-top: 50px;
   margin:0;
   padding:0;
-  background-color:#0DFF56;
-  border-top-left-radius: 20px;
+  background-color:#62FF00;
+  border-top-left-radius: 40px;
+}
+
+
+
+
+
+footer {
+  background-color:#FFFFFF;
+  margin:0;
+  margin-top:1080px;
+  border-top:double 5px ;
+  padding-top:5px;
+  padding-bottom:5px;
 }
